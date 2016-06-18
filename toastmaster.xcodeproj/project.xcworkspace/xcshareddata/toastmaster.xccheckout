@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6910790E-0340-49CA-A534-E67A627BA20C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>toastmaster</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CCA08D7DC7143BA5E660B0F224045147EE1C3F2E</key>
+		<string>https://github.com/alice525/toastmaster.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>toastmaster.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CCA08D7DC7143BA5E660B0F224045147EE1C3F2E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/alice525/toastmaster.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CCA08D7DC7143BA5E660B0F224045147EE1C3F2E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CCA08D7DC7143BA5E660B0F224045147EE1C3F2E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>toastmaster</string>
+		</dict>
+	</array>
+</dict>
+</plist>
