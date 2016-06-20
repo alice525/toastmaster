@@ -8,6 +8,10 @@
 
 #import "TOMBaseViewController.h"
 
-@interface TOMBaseTableViewController : TOMBaseViewController
+@interface TOMBaseTableViewController : TOMBaseViewController <UITableViewDataSource, UITableViewDelegate, P_QLDragToRefresh>
+
+@property (nonatomic, strong) UITableView *tableView;
+
+- (void)resetTableViewFrame:(CGRect)frame;
 
 @end

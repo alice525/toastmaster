@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TOMBaseViewHelper.h"
 
 @interface TOMBaseViewController : UIViewController
 

@@ -10,4 +10,6 @@
 
 @interface TOMLoadStatusHeaderView : UIView
 
+- (void)showActivity:(BOOL)shouldShow;
+
 @end

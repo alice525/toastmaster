@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import <SDWebImage/UIImageView+WebCache.h>
+//#import <AFNetworking/AFHTTPSessionManager.h>
+//#import "AFNetworking.h"
 
 @interface ViewController ()
 
@@ -25,6 +27,8 @@
     [imageView sd_setImageWithURL:[NSURL URLWithString:@"http://www.uimaker.com/uploads/allimg/120416/1_120416091247_2.png"]];
     
     [self.view addSubview:imageView];
+    
+    
     
     
 }

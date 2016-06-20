@@ -10,4 +10,8 @@
 
 @interface TOMLoadingStatusView : UIView
 
+- (void)startAnimate;
+
+- (void)stopAnimate;
+
 @end

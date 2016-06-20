@@ -10,4 +10,6 @@
 
 @interface TOMLoadStatusFooterView : UIView
 
+- (void)showActivity:(BOOL)shouldShow;
+
 @end
