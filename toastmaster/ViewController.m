@@ -28,9 +28,6 @@
     
     [self.view addSubview:imageView];
     
-    
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {
