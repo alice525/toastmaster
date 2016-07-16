@@ -22,6 +22,8 @@
 		00BE695E1D26A91600055A7E /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BE69531D26A91600055A7E /* UIProgressView+AFNetworking.m */; };
 		00BE695F1D26A91600055A7E /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BE69551D26A91600055A7E /* UIRefreshControl+AFNetworking.m */; };
 		00BE69601D26A91600055A7E /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BE69571D26A91600055A7E /* UIWebView+AFNetworking.m */; };
+		185090DF1D3A5A08002E04A9 /* User.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 185090DE1D3A5A08002E04A9 /* User.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		185BB0A21D3A66E0006867E3 /* libProtocolBuffers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 185BB0991D3A66B6006867E3 /* libProtocolBuffers.a */; };
 		188367A91D14F07F004ED4CD /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1883679E1D14EFE2004ED4CD /* libSDWebImage.a */; };
 		188367C61D151178004ED4CD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188367C51D151178004ED4CD /* Security.framework */; };
 		188367CA1D1511A1004ED4CD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188367C91D1511A1004ED4CD /* SystemConfiguration.framework */; };
@@ -44,6 +46,41 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		185BB0981D3A66B6006867E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185BB0901D3A66B5006867E3 /* ProtocolBuffers_iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7461B52E0F94FAF800A0C422;
+			remoteInfo = ProtocolBuffers;
+		};
+		185BB09A1D3A66B6006867E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185BB0901D3A66B5006867E3 /* ProtocolBuffers_iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8BBEA4A6147C727100C4ADB7;
+			remoteInfo = UnitTests;
+		};
+		185BB09C1D3A66B6006867E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185BB0901D3A66B5006867E3 /* ProtocolBuffers_iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9A5EA51831993600A9D33B;
+			remoteInfo = iOSTestHarness;
+		};
+		185BB09E1D3A66B6006867E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185BB0901D3A66B5006867E3 /* ProtocolBuffers_iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F4487C6E1A9F8F8100531423;
+			remoteInfo = TestSingleSourceBuild;
+		};
+		185BB0A01D3A66DA006867E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185BB0901D3A66B5006867E3 /* ProtocolBuffers_iOS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7461B52D0F94FAF800A0C422;
+			remoteInfo = ProtocolBuffers;
+		};
 		1883679D1D14EFE2004ED4CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 188367941D14EFE2004ED4CD /* SDWebImage.xcodeproj */;
@@ -131,6 +168,9 @@
 		00BE69551D26A91600055A7E /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		00BE69561D26A91600055A7E /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		00BE69571D26A91600055A7E /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		185090DD1D3A5A08002E04A9 /* User.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.pbobjc.h; path = Protobufs/User.pbobjc.h; sourceTree = "<group>"; };
+		185090DE1D3A5A08002E04A9 /* User.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.pbobjc.m; path = Protobufs/User.pbobjc.m; sourceTree = "<group>"; };
+		185BB0901D3A66B5006867E3 /* ProtocolBuffers_iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ProtocolBuffers_iOS.xcodeproj; path = 3rd/ProtoBuff/ProtocolBuffers_iOS.xcodeproj; sourceTree = "<group>"; };
 		188367941D14EFE2004ED4CD /* SDWebImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage.xcodeproj; path = "3rd/SDWebImage-master/SDWebImage.xcodeproj"; sourceTree = "<group>"; };
 		188367C51D151178004ED4CD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		188367C71D151190004ED4CD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -171,6 +211,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185BB0A21D3A66E0006867E3 /* libProtocolBuffers.a in Frameworks */,
 				188367D31D152032004ED4CD /* MobileCoreServices.framework in Frameworks */,
 				188367CA1D1511A1004ED4CD /* SystemConfiguration.framework in Frameworks */,
 				188367C61D151178004ED4CD /* Security.framework in Frameworks */,
@@ -255,6 +296,34 @@
 				00BE69571D26A91600055A7E /* UIWebView+AFNetworking.m */,
 			);
 			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		185090D71D3A597C002E04A9 /* Protobufs */ = {
+			isa = PBXGroup;
+			children = (
+				185090DD1D3A5A08002E04A9 /* User.pbobjc.h */,
+				185090DE1D3A5A08002E04A9 /* User.pbobjc.m */,
+			);
+			name = Protobufs;
+			sourceTree = "<group>";
+		};
+		185090E01D3A5E26002E04A9 /* ProtoBuff */ = {
+			isa = PBXGroup;
+			children = (
+				185BB0901D3A66B5006867E3 /* ProtocolBuffers_iOS.xcodeproj */,
+			);
+			name = ProtoBuff;
+			sourceTree = "<group>";
+		};
+		185BB0911D3A66B5006867E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185BB0991D3A66B6006867E3 /* libProtocolBuffers.a */,
+				185BB09B1D3A66B6006867E3 /* UnitTests.xctest */,
+				185BB09D1D3A66B6006867E3 /* iOSTestHarness.app */,
+				185BB09F1D3A66B6006867E3 /* libTestSingleSourceBuild.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		188367951D14EFE2004ED4CD /* Products */ = {
@@ -348,6 +417,7 @@
 		18D65EB31D0C589A001AA74C /* toastmaster */ = {
 			isa = PBXGroup;
 			children = (
+				185090D71D3A597C002E04A9 /* Protobufs */,
 				188368241D154EAD004ED4CD /* Base */,
 				18D65F441D0C65BD001AA74C /* Frameworks */,
 				18D65EDC1D0C5A10001AA74C /* 3rd */,
@@ -393,6 +463,7 @@
 		18D65EDC1D0C5A10001AA74C /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				185090E01D3A5E26002E04A9 /* ProtoBuff */,
 				00BE68F01D26A72F00055A7E /* AFNetworking */,
 				188367941D14EFE2004ED4CD /* SDWebImage.xcodeproj */,
 			);
@@ -420,6 +491,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				185BB0A11D3A66DA006867E3 /* PBXTargetDependency */,
 				188367A81D14F04D004ED4CD /* PBXTargetDependency */,
 			);
 			name = toastmaster;
@@ -476,6 +548,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 185BB0911D3A66B5006867E3 /* Products */;
+					ProjectRef = 185BB0901D3A66B5006867E3 /* ProtocolBuffers_iOS.xcodeproj */;
+				},
+				{
 					ProductGroup = 188367951D14EFE2004ED4CD /* Products */;
 					ProjectRef = 188367941D14EFE2004ED4CD /* SDWebImage.xcodeproj */;
 				},
@@ -489,6 +565,34 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		185BB0991D3A66B6006867E3 /* libProtocolBuffers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libProtocolBuffers.a;
+			remoteRef = 185BB0981D3A66B6006867E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185BB09B1D3A66B6006867E3 /* UnitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.xctest;
+			remoteRef = 185BB09A1D3A66B6006867E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185BB09D1D3A66B6006867E3 /* iOSTestHarness.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = iOSTestHarness.app;
+			remoteRef = 185BB09C1D3A66B6006867E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		185BB09F1D3A66B6006867E3 /* libTestSingleSourceBuild.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTestSingleSourceBuild.a;
+			remoteRef = 185BB09E1D3A66B6006867E3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		1883679E1D14EFE2004ED4CD /* libSDWebImage.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -565,6 +669,7 @@
 				00BE69591D26A91600055A7E /* AFImageDownloader.m in Sources */,
 				00BE695C1D26A91600055A7E /* UIButton+AFNetworking.m in Sources */,
 				00BE695D1D26A91600055A7E /* UIImageView+AFNetworking.m in Sources */,
+				185090DF1D3A5A08002E04A9 /* User.pbobjc.m in Sources */,
 				00BE693D1D26A8E300055A7E /* AFURLRequestSerialization.m in Sources */,
 				188368BA1D16879A004ED4CD /* TOMBaseTableViewController.m in Sources */,
 				188368B71D168035004ED4CD /* TOMLoadStatusHeaderView.m in Sources */,
@@ -589,6 +694,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		185BB0A11D3A66DA006867E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ProtocolBuffers;
+			targetProxy = 185BB0A01D3A66DA006867E3 /* PBXContainerItemProxy */;
+		};
 		188367A81D14F04D004ED4CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SDWebImage;

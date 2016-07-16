@@ -1,0 +1,15 @@
+syntax = "proto3";
+ 
+message PBUser {
+ 
+string userId = 1;                       // 用户ID
+string nick = 2;                         // 用户昵称
+string avatar = 3;                       // 用户头像
+ 
+string password = 7;
+string email = 8;
+string mobile = 9;                       // 手机号码
+string qqOpenId = 10;                    // QQ ID
+string sinaId = 11;                      // SINA UserID
+string weixinId = 12;                    // WeChat UserID
+}

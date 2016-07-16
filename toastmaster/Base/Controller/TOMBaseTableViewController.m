@@ -7,6 +7,7 @@
 //
 
 #import "TOMBaseTableViewController.h"
+#import "User.pbobjc.h"
 
 @implementation TOMBaseTableViewController
 
@@ -26,6 +27,9 @@
     [self createTableView];
     
     [self resetTableViewFrame:self.view.bounds];
+    
+    PBUser *user = [PBUser message];
+    user.nick = @"cjh";
 }
 
 - (void)createTableView
